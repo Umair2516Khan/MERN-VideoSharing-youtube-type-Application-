@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif!important;
+}
+body{
+    background-color: black;
+}
+.sidebar{
+flex: 0.5;
+overflow: scroll;
+background-color: black;
+}
+.videoSection{
+    overflow: scroll;
+    flex: 3;
+    background-color: black;
+}

@@ -1,0 +1,89 @@
+
+.thumbnail{
+    /* position: absolute; */
+    /* margin: 10px; */
+    border-radius: 1rem;
+    height: 12rem;
+    width: 20rem;
+}
+.videocard{
+    width: 22rem;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 5rem; */
+    /* width: 5rem; */
+}
+.videoInfo{
+    padding-top: 0.19rem;
+    color: rgb(169, 162, 162);
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.6rem;
+}
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userImage1{
+    border-radius: 50%;
+    width: 3.2rem;
+    height: 2.9rem;
+}
+.title{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+
+@media(max-width:850px){
+
+    .videocard{
+        width: 27rem;
+    }
+    .thumbnail{
+        height: 15rem;
+        width: 25rem;
+    }
+    #level{
+        font-size: small;
+    }
+}
+@media(max-width:762px){
+    #level{
+        font-size: smaller;
+    }
+}
+@media(max-width:732px){
+    #level{
+        font-size: 0;
+    }
+}   
+@media(min-width:1065px) and (max-width:1265px){
+    .videocard{
+        width: 24rem;
+    }
+    .thumbnail{
+        height: 12.6rem;
+        width: 22rem;
+    }
+}
+
+@media(min-width:1265px) and (max-width:1320px){
+    .thumbnail{
+        height: 11rem;
+        width: 19rem;
+    }
+    .videocard{
+        width: 21rem;
+    }
+}
